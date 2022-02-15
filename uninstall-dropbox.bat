@@ -626,5 +626,4 @@ REG DELETE HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstal
 REG DELETE HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Dropbox /v	URLInfoAbout /f /reg:64  
 REG DELETE HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Dropbox /v	VersionMajor /f /reg:64  
 REG DELETE HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Dropbox /v	VersionMinor /f /reg:64  
-REG DELETE HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\FirewallRules /v	{7A19E09C-5A68-424E-B585-62D982F96C2D} /f /reg:64  
-pause
+REG DELETE HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\FirewallRules /v	{7A19E09C-5A68-424E-B585-62D982F96C2D} /f /reg:64
