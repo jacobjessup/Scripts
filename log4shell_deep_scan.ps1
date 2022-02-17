@@ -1,5 +1,3 @@
-
-function Invoke-Scan {
 #
 # Arctic Wolf Log4Shell Deep Scan
 # Copyright 2021, Arctic Wolf Networks, Inc.
@@ -303,5 +301,3 @@ No Java applications containing unpatched Log4j were found.
   }
   exit 0
 }
-}
-Invoke-Scan
