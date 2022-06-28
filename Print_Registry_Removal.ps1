@@ -1,0 +1,1 @@
+﻿Get-ChildItem 'HKLM:\SYSTEM\CurrentControlSet\Control\Print\Environments\Windows x64\Print Processors' -Exclude winprint* | Remove-Item
